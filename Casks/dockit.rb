@@ -1,6 +1,6 @@
 cask "dockit" do
-  version "0.0.2"
-  sha256 "7d5921e1307874386a8dd94a36e2581f258fe26711aa3cc46b2bd0ee2180b504"
+  version "v0.0.3"
+  sha256 "ea279f789a9c218f82e7f0aee8ebd4cb8ad3b70ae0c8992b3fcb4ced35bd83a7"
 
   url "https://github.com/XiCheng000/Dockit/releases/download/v#{version}/Dockit.dmg"
   name "Dockit"
