@@ -2,7 +2,7 @@ cask "dockit" do
   version "v0.0.3"
   sha256 "895b0a0ca94a82b779890b72e8d1a5134c5393c418732e90f7d092a6110a09de"
 
-  url "https://github.com/XiCheng000/Dockit/releases/download/v#{version}/Dockit.dmg"
+  url "https://github.com/XiCheng000/Dockit/releases/download/#{version}/Dockit.dmg"
   name "Dockit"
   homepage "https://github.com/XiCheng000/Dockit"
 
