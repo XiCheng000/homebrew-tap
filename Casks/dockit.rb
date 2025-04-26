@@ -11,6 +11,12 @@ cask "dockit" do
 
   app "Dockit.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "/Applications/Dockit.app"],
+                   sudo: false
+  end
+
   caveats <<~EOS
     Dockit is currently unsigned. You'll need to:
     1. Right-click the app and select "Open"
